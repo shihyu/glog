@@ -1,0 +1,16 @@
+1、簡介
+     glog是google的開源日誌系統，本質上是一個程序級記錄日誌信息的c++庫，編程使用方式與c++的stream操作類似，例如：
+
+LOG(INFO) <<  "Hello Glog" ; 
+
+2、安裝
+    下載連接：http://code.google.com/p/google-glog/ 
+    安裝：./configure && make -j8 && sudo make install 
+
+3、日誌嚴重等級
+      glog可通過根據指定的嚴重性等級，來選擇性記錄日誌。日誌信息嚴重性等級按由低到高排列依次為：INFO, WARNING, ERROR,和FATAL四級。使用者可以在命令行中設置嚴重性等級門限值來控制日誌的輸出。
+
+4. sudo ldconfig 
+
+5. build command
+ g++ glog_test.cpp -o glog_test -lglog -lpthread

@@ -1,0 +1,4 @@
+Log file created at: 2013/12/20 01:11:06
+Running on machine: shihyu-MS-7758
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1220 01:11:06.371314 22530 glog_test.cpp:26] Hello Glog
